@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(extras/fondotransporte.webp);
+}
+.titulos{
+    display: grid;
+    gap: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    border: solid #492669 3px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px #492669; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px ;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #492669 ;
+    margin: auto;
+    border-radius: 5px;
+}
+h3{
+    color: #FFFFFF;
+    background-color: #492669;
+    text-align: center;
+    margin: auto;
+    text-decoration: wavy;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px 10px;
+}
+
+input:hover {
+    margin: 10px;
+    border: solid #492669 3px;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 5px 10px;
+    color: #492669;
+    font-weight: 700;
+}
+.volver {
+    color: #492669;
+    font-weight: 700;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.volver:hover {
+    border: solid #492669 2.5px;
+    border-radius: 3px;
+    padding: 3px 3px;
+    transition: .3s ease;
+}
+
+.boton_crear{
+    width: 6em;
+    height: 2em;
+    border-radius: 20em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #492669 -6px -6px 12px #492669;
+}
+
+
+.boton_crear:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: block;
+    background-color: #492669;
+    background-image: linear-gradient(to right, #ffffff 0%,#492669 50%, #492669 100%) ;
+    transition: .7s ease;
+    z-index: -1;
+}
+
+button:hover::before{
+    width: 9em;
+ }

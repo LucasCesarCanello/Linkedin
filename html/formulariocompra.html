@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        </style>
+        <link rel="stylesheet" type="text/css" href="cssformcompra.css">
+        <title>Formulario de compra</title>
+    </head>
+    <body>
+        <a href="index.html" class = "volver">Volver</a>
+        <div class = "encabezado">
+            <h1>Formulario de compra</h1>
+            <h3>Complete los siguientes campos:</h3>
+        </div>
+        <form id = "formulario_compra" class= "formulario_compra">
+            <label for="cod_prod_vend">Código producto</label>
+            <input type="number" name="cod_prod_vend" id = "cod_prod_vend" placeholder="Código de producto comprado" required>
+            <label for="dni_comprador">DNI</label>
+            <input type="number" name = "dni_comprador" id = "dni_cliente" placeholder="Ingrese su DNI" required> 
+            <label for="cant_comprada">Cantidad</label>
+            <input type="number" name = "cant_comprada" id="cant_comprada" placeholder="Cantidad comprada" required>
+            <label for="fecha_entrega">Fecha de entrega</label>
+            <input type="date" name = "fecha_entrega" id="fecha_entrega" required>
+            <button type="submit" class="boton_cargar">Cargar</button>
+        </form>
+        <script src = "JavascriptIntegrador.js"></script>
+    </body>
+</html>

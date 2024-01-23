@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+          </style>
+        <link rel="stylesheet" type="text/css" href="csslistaprod.css">
+        <title>Productos</title>
+    </head>
+    <body>
+        <a href="index.html" class="volver">Volver</a>
+        <div class = "encabezado">
+            <h1>LISTA DE PRODUCTOS</h1>
+            <input type="submit" value="Mostrar" id= "mostrar_productos" class="mostrar_productos">
+        </div>
+        <table class = "tabla_productos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Marca</th>
+                    <th>Alto (cm)</th>
+                    <th>Ancho (cm)</th>
+                    <th>Profundidad (cm)</th>
+                    <th>Precio unitario</th>
+                    <th>Stock mínimo</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody id = "filas_productos">
+
+            </tbody>
+        </table>
+        <a class = "actualizar_stock" href="actualizarstock.html">Actualizar stock de un producto</a>
+        <script src = "JavascriptIntegrador.js"></script>
+    </body>
+</html>

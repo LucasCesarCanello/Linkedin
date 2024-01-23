@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lista Clientes</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+          </style>
+          <link rel="stylesheet" type="text/css" href="csslistaclientes.css">
+    </head>
+    <body>
+        <a href="index.html" class="volver"> Volver</a>
+        <nav>
+            <a class="ancla" href="formulariocliente.html"> Nuevo </a>
+            <a class="ancla" href="formularioeditarcliente.html"> Editar </a>
+            <a class="ancla" href="eliminarcliente.html"> Eliminar </a>
+        </nav>
+        <div class="titulos">
+            <h1> Lista de Clientes</h1>
+            <button type="submit"> Mostrar</button>
+        </div>
+        <table class = "tabla_clientes">
+            <thead>
+                <tr>
+                    <th>DNI</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody id = "filas_clientes">
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Crear Viaje nuevo</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+          </style>
+          <link rel="stylesheet" type="text/css" href="cssformviajes.css">
+    </head>
+    <body>
+        <a href="index.html" class="volver"> Volver</a>
+       <div class="titulos">
+           <h1> Crear Nuevo Viaje</h1>
+           <h3> Ingresar fechas de entrega:</h3>
+       </div> 
+        <form id="form_viajes">
+            <label for="FecEntragaDesde"> Fecha Desde:</label>
+            <input type="date" id="FecEntregaDesde" name="FecEntragaDesde" required>
+            <br>
+            <label for="FecEntragaHasta"> Fecha Hasta:</label>
+            <input type="date" id="FecEntregaHasta" name="FecEntragaHasta" required>
+            <button type="submit" class="boton_crear"> Crear  </button>
+        </form>
+    </body>
+    <script src="JavascriptIntegrador.js"></script>
+</html>

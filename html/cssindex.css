@@ -1,0 +1,38 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    background-image: url(extras/fondotransporte.webp);
+}
+
+.logo {
+    display: grid;
+    place-items: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75px;
+}
+
+.ancla {
+	background-color:#492669;
+	border-radius:5px;
+    border-color: #000000;
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+    cursor:pointer;
+	color:#FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:700;
+	padding:10px;
+    max-width: 300px;
+	text-decoration:none;
+}
+.ancla:hover {
+	background-color:#FFFFFF;
+    color: #492669;
+    position:relative; 
+    border: solid 1px#492669 ;
+}
