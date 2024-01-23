@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gkqo7f/lUxXyHR6ZHO1vCFqQ7JidgJEGfWZAYpbKWQ5Dk//bWGkMgCRaGtclnf5ZFPx2mH2Gv78f4sViqoWTZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\ProyectoService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\geolocation\\1.2.1\\geolocation.1.2.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\googlemaps.locationservices\\1.2.0.5\\googlemaps.locationservices.1.2.0.5.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

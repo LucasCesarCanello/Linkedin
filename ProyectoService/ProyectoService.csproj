@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Geolocation" Version="1.2.1" />
+    <PackageReference Include="GoogleMaps.LocationServices" Version="1.2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoData\ProyectoData.csproj" />
+    <ProjectReference Include="..\ProyectoDTO\ProyectoDTO.csproj" />
+  </ItemGroup>
+
+</Project>

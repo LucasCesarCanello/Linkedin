@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Upj5fVXkhIaokX4SxpHTBqs6XZy5VMcGH1jsmEI9mVTeE18oTAJRic/VmipXbCUurMXh0p2pLCsSLs7ydNWLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\geolocation\\1.2.1\\geolocation.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

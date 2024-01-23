@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoTest\\ProyectoTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoData\\ProyectoData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoData\\ProyectoData.csproj",
+        "projectName": "ProyectoData",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoData\\ProyectoData.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Geolocation": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj",
+        "projectName": "ProyectoDTO",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Geolocation": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\ProyectoService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\ProyectoService.csproj",
+        "projectName": "ProyectoService",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\ProyectoService.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoData\\ProyectoData.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoData\\ProyectoData.csproj"
+              },
+              "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Geolocation": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "GoogleMaps.LocationServices": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoTest\\ProyectoTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoTest\\ProyectoTest.csproj",
+        "projectName": "ProyectoTest",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoTest\\ProyectoTest.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoDTO\\ProyectoDTO.csproj"
+              },
+              "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\ProyectoService.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Downloads\\2023-Prog1-TrabajoIntegrador-Canello-Lerda-Segura-main\\Solucion\\ProyectoService\\ProyectoService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
